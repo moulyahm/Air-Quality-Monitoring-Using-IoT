@@ -78,9 +78,8 @@ Install the following libraries in Arduino IDE:
 - BlynkSimpleEsp32.h
 - DHT.h
 - Wire.h
-- LiquidCrystal_I2C.h
+- hd44780.h
 
----
 
 ## ▶️ Working Principle
 1. MQ135 sensor detects air quality/gas concentration.
@@ -90,7 +89,6 @@ Install the following libraries in Arduino IDE:
 5. ESP32 sends data to Blynk Cloud through Wi-Fi.
 6. User monitors values remotely using the Blynk mobile app.
 
----
 
 ## 📊 Applications
 - Smart Homes
@@ -99,7 +97,6 @@ Install the following libraries in Arduino IDE:
 - Weather Monitoring Systems
 - Indoor Air Quality Analysis
 
----
 
 ## 🔮 Future Scope
 - Add GSM module for SMS alerts
@@ -108,7 +105,6 @@ Install the following libraries in Arduino IDE:
 - Add AI-based pollution prediction
 - Integrate with smart home systems
 
----
 
 ## ⚠️ Limitations
 - Requires internet connection
@@ -116,22 +112,8 @@ Install the following libraries in Arduino IDE:
 - DHT11 has limited accuracy
 - Sensor calibration is required for precise measurements
 
----
 
-## 📸 Project Images
-Add your project images here.
 
-Example:
-- Circuit Diagram
-- Hardware Setup
-- Blynk App Screenshots
-
----
-
-## 👨‍💻 Author
-Your Name
-
----
 
 ## 📄 License
 This project is for educational purposes.
